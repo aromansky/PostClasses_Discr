@@ -1,0 +1,15 @@
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\bin\Debug\net6.0\PostClasses.exe
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\bin\Debug\net6.0\PostClasses.deps.json
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\bin\Debug\net6.0\PostClasses.runtimeconfig.json
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\bin\Debug\net6.0\PostClasses.dll
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\bin\Debug\net6.0\PostClasses.pdb
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\obj\Debug\net6.0\PostClasses.csproj.AssemblyReference.cache
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\obj\Debug\net6.0\PostClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\obj\Debug\net6.0\PostClasses.AssemblyInfoInputs.cache
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\obj\Debug\net6.0\PostClasses.AssemblyInfo.cs
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\obj\Debug\net6.0\PostClasses.csproj.CoreCompileInputs.cache
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\obj\Debug\net6.0\PostClasses.dll
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\obj\Debug\net6.0\refint\PostClasses.dll
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\obj\Debug\net6.0\PostClasses.pdb
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\obj\Debug\net6.0\PostClasses.genruntimeconfig.cache
+C:\Users\kirbi\OneDrive\Рабочий стол\PostClasses_Romanskii\obj\Debug\net6.0\ref\PostClasses.dll
