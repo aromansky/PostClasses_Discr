@@ -99,6 +99,17 @@ namespace ANF_Romanskii
             var countVars = CountVariables(eval);
             var len = eval.Length;
 
+            // Обработка констант
+            if (eval.Length == 1)
+            {
+                if (eval.First() == 1)
+                    return (false, true, true, false, true);
+                else if (eval.First() == 0)
+                    return (true, false, true, false, true);
+            }
+                
+
+
             // Проверка принадлежности к классам P0 и P1
             res.ClassP0 = !boolEval[0];
             res.ClassP1 = boolEval[len - 1];
