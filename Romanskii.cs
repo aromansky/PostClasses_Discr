@@ -86,7 +86,7 @@ namespace ANF_Romanskii
         }
 
         /// <summary>
-        /// Выводит список классов Поста, к которым принадлежит функция.
+        /// Возвращает принадлежность функции к классам Поста.
         /// </summary>
         /// <param name="eval"></param>
         /// <returns></returns>
