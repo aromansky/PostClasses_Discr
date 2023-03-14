@@ -103,10 +103,20 @@ namespace ANF_Romanskii
             res.ClassP0 = !boolEval[0];
             res.ClassP1 = boolEval[len - 1];
 
-            // Проверка принадлежности к классу L
-            for (var i = 3; i < coeffs.Length; i++)
+
+            // Построение таблицы истинности
+            var TrTable = new int[len][];
+            for (var i = 0; i < len; i++)
             {
-                if (i == coeffs.Length / 2)
+                var st = Convert.ToString(i, 2);
+                st = new string('0', countVars - st.Length) + st;
+                TrTable[i] = st.Select(x => int.Parse(x.ToString())).ToArray();
+            }
+
+            // Проверка принадлежности к классу L
+            for (var i = 0; i < coeffs.Length; i++)
+            {
+                if (TrTable[i].Count(x => x ==  1) == 1)
                     continue;
                 if (coeffs[i])
                 {
@@ -123,14 +133,6 @@ namespace ANF_Romanskii
                     break;
                 }
 
-            // Построение таблицы истинности
-            var TrTable = new int[len][];
-            for (var i = 0; i < len; i++)
-            {
-                var st = Convert.ToString(i, 2);
-                st = new string('0', countVars - st.Length) + st;
-                TrTable[i] = st.Select(x => int.Parse(x.ToString())).ToArray();
-            }
 
             // Проверка принадлежности к классу M
             for (var i = 0; i < len - 1; i++)
