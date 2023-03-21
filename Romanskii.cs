@@ -127,7 +127,7 @@ namespace ANF_Romanskii
             // Проверка принадлежности к классу L
             for (var i = 0; i < coeffs.Length; i++)
             {
-                if (TrTable[i].Count(x => x ==  1) == 1)
+                if (TrTable[i].Count(x => x ==  1) <= 1)
                     continue;
                 if (coeffs[i])
                 {
